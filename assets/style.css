@@ -2,4 +2,66 @@ body{
     margin: 0;
     padding: 0;
     border: 0;
+    background-image: url("../assets/img/south-african-food-chakalaka-1510737421-1000X561.jpg");
+    background-size: cover;
+}
+
+.main-nav{
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 6fr 1fr 1fr 1fr 1fr;
+}
+
+
+
+.navlinks{
+    margin: auto;
+    align-items: center;
+    text-decoration: none;
+    padding-bottom: 3px;
+    color: rgb(17, 174, 236);
+    transition: border-bottom 1s;
+    font-weight: bolder;
+}
+
+.navlinks:hover{
+    border-bottom: 3px solid black;
+}
+
+.active{
+    border-bottom: 3px solid black;
+}
+
+#main-sec{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#main-sec h1{
+    font-size: 45px;
+    padding: 5px 10px;
+    margin-bottom: 0;
+    border: 5px solid black;
+    display: inline-block;
+}
+
+#main-sec h3{
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+#main-sec a{
+    padding: 5px 8px;
+    text-decoration: none;
+    color: white;
+    border: 3px solid white;
+    font-size: 20px;
+    transition: background-color 1s, color 1s;
+}
+
+#main-sec a:hover{
+    background-color: white;
+    color: black;
 }
